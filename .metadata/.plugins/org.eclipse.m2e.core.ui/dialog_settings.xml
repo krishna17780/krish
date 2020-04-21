@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\krish\OneDrive\Desktop\mvc"/>
+			<item value="C:\Users\krish\eclipse-workspace\Springmvc\src\main\java\com\example\demo\mvc\HomeController.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Springmvc"/>
+		</list>
+		<list key="name">
+			<item value="Springmvc"/>
+		</list>
+		<list key="artifactId">
+			<item value="Mvc"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\krish\Downloads\original (2)\solution-code-spring-security-demo-08-jdbc-plaintext"/>
+			<item value="C:\Users\krish\Downloads\original\solution-code-spring-security-demo-07-user-roles-display-content-based-on-roles"/>
+			<item value="C:\Users\krish\Downloads\original (1)\solution-code-spring-security-demo-08-jdbc-plaintext"/>
+			<item value="C:\Users\krish\Downloads\original\spring-security-demo-db-plaintext-starter"/>
+			<item value="C:\Users\krish\Downloads\original\solution-code-spring-security-demo-07-user-roles-restrict-access"/>
+			<item value="C:\Users\krish\Downloads\original\solution-code-spring-security-demo-05-logout"/>
+			<item value="C:\Users\krish\Downloads\original\solution-code-spring-security-demo-01-base-app"/>
+			<item value="C:\Users\krish\Downloads\spring-hibernate-customer-tracker-with-maven-all-java-config"/>
+			<item value="C:\Users\krish\Downloads\CRUD-Operations-using-Spring-Boot-and-MVC-master"/>
+			<item value="C:\Users\krish\Downloads\spring-boot-web-application-example"/>
+			<item value="C:\Users\krish\OneDrive\Desktop\springDemo\springDemo"/>
+			<item value="E:\springDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="238"/>
+		<item key="y" value="0"/>
+	</section>
+	<section name="MavenDependenciesWizardPage">
+	</section>
+</section>

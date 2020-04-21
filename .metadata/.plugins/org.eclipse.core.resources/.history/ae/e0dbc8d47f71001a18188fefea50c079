@@ -1,0 +1,31 @@
+package com.example.demo.instructorDetails;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+public class createDemo {
+	public static void main(String[] args) {
+
+		SessionFactory factory= new Configuration()
+	    		   .configure("hibernate.cfg.xml")
+	    		   .addAnnotatedClass(Instructor.class)
+	    		   .addAnnotatedClass(InstructorDetails.class)
+	    		   .buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		try {
+			
+			// associate the objects
+			Instructor tempInstructor = new Instructor("krishna", "gona", "krish@gmail.com");
+			InstructorDetails tempInstructorDetails = new InstructorDetails("krishna.youtube", "love");
+			tempInstructor.setInstructorDetails(tempInstructorDetails);
+		    session.beginTransaction();
+			System.out.println("saving instructor: " + tempInstructor);
+			session.save(tempInstructor);
+			// commit transaction
+			session.getTransaction().commit();
+		} finally {
+			// TODO: handle finally clause
+			factory.close();
+		}
+	}
+}

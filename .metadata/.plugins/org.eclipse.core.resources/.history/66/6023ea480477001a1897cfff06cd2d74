@@ -1,0 +1,5 @@
+package com.springrest.springdemo.rest;
+
+public class StudentRestController {
+
+}

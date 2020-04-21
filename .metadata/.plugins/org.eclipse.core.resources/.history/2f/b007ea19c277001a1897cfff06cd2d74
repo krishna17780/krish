@@ -1,0 +1,6 @@
+package com.springrest.springdemo.rest;
+
+public class StudentNotFoundException extends RuntimeException{
+
+	
+}
