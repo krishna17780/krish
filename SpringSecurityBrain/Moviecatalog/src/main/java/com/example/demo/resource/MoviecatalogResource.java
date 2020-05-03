@@ -17,6 +17,7 @@ import com.example.demo.model.Catalogies;
 import com.example.demo.model.Movie;
 import com.example.demo.model.Rating;
 import com.example.demo.model.UserRating;
+import com.netflix.ribbon.proxy.annotation.Hystrix;
 
 @RestController
 @RequestMapping("/moviecatalog")
@@ -26,6 +27,7 @@ public class MoviecatalogResource {
 	private RestTemplate restTemplate;
 	
 	@RequestMapping("/{userId}")
+	@Hystrix
 	public List<Catalogies> getCatalog(@PathVariable String userid) {
 		
 		
