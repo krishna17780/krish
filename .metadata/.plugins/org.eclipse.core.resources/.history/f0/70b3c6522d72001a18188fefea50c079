@@ -1,5 +1,0 @@
-package com.springmvc.springboot.testDb;
-
-public class TestDbServlet {
-
-}

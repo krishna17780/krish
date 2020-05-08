@@ -1,8 +1,0 @@
-127.0.0.1 - - [04/Apr/2020:00:27:37 -0400] "GET / HTTP/1.1" 404 709
-0:0:0:0:0:0:0:1 - - [04/Apr/2020:00:27:39 -0400] "GET /spring-security-demo/ HTTP/1.1" 500 21978
-127.0.0.1 - - [04/Apr/2020:00:30:01 -0400] "GET / HTTP/1.1" 404 709
-0:0:0:0:0:0:0:1 - - [04/Apr/2020:00:30:02 -0400] "GET /spring-security-demo/ HTTP/1.1" 302 -
-0:0:0:0:0:0:0:1 - - [04/Apr/2020:00:30:05 -0400] "GET /spring-security-demo/showMyLoginPage HTTP/1.1" 200 2369
-0:0:0:0:0:0:0:1 - - [04/Apr/2020:00:31:12 -0400] "POST /spring-security-demo/authenticateTheUser HTTP/1.1" 302 -
-0:0:0:0:0:0:0:1 - - [04/Apr/2020:00:31:12 -0400] "GET /spring-security-demo/showMyLoginPage?error HTTP/1.1" 200 2521
-127.0.0.1 - - [04/Apr/2020:01:34:41 -0400] "GET / HTTP/1.1" 404 709
