@@ -1,0 +1,6 @@
+<html>
+<head>
+<h3>Spring rest demo</h3>
+<a href="${pageContext.request.contextPath }/test/hello">hello</a>
+</head>
+</html>

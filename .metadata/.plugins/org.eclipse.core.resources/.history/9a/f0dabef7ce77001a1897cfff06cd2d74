@@ -1,0 +1,9 @@
+package com.luv2code.springdemo.rest;
+
+public class CustomerrestExceptionHandler {
+
+	public CustomerrestExceptionHandler() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

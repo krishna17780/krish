@@ -1,0 +1,10 @@
+
+public class Streamtolist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Stream<Integer> number = Stream.of(1, 2, 3, 4, 5);
+
+	}
+
+}
